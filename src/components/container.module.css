@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    margin: auto auto;
+    display: flex;
+    flex-direction: row;
+    max-width: 800px;
+    min-height: 520px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+  }
+}

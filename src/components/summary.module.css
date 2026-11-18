@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "HankenGrotesk";
+  src: url("../assets/fonts/HankenGrotesk-VariableFont_wght.ttf")
+    format("true type");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+.container {
+  width: 100%;
+  flex: 1;
+  flex-basis: 0;
+  background-color: hsl(0, 0%, 100%);
+  padding: 10px;
+  font-family: "HankenGrotesk", sans-serif;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.headText {
+  font-size: 17px;
+  font-weight: 600;
+  color: hsl(224, 30%, 27%);
+  margin-bottom: 20px;
+}
+
+.mainContainer {
+  width: 80%;
+}

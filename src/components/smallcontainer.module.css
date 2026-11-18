@@ -1,0 +1,38 @@
+.tank {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.firstContainer {
+  display: flex;
+  background-color: rgba(255, 87, 87, 0.1);
+  opacity: 3;
+  border-radius: 9px;
+  justify-content: space-between;
+  padding: 2px;
+  color: hsl(0, 100%, 67%);
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.nextDiv {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.img {
+  height: 25px;
+  width: 30px;
+}
+
+.score {
+  color: hsl(224, 30%, 27%);
+}
+
+.total {
+  color: hsla(224, 30%, 27%, 0.5);
+}
