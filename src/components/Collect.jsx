@@ -15,7 +15,7 @@ export default function Collect({ data, setData }) {
   return (
     <div>
       <div>
-        <button onClick={handleClick}>Continue</button>
+        <button onClick={handleClick} className = {styles.button}>Continue</button>
       </div>
     </div>
   );
